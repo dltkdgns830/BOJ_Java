@@ -1,0 +1,10 @@
+import java.io.*;
+import java.util.*;
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); <- 제출할 땐 이거만 바꾸면 됨
+
+FileReader reader = new FileReader("/workspace/BOJ/src/input.txt");
+		BufferedReader br = new BufferedReader(reader);
+		StringTokenizer st; 
+		st = new StringTokenizer(br.readLine());
+		StringBuilder sb = new StringBuilder();
